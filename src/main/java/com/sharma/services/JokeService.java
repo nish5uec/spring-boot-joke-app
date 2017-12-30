@@ -8,8 +8,8 @@ public class JokeService {
 
     private ChuckNorrisQuotes quotes;
 
-    public JokeService() {
-        this.quotes = new ChuckNorrisQuotes();
+    public JokeService(ChuckNorrisQuotes quotes) {
+        this.quotes = quotes;
     }
 
     public String getJoke(){
